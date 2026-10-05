@@ -8,15 +8,9 @@ Static site for the band Almost There. Plain HTML/CSS, no build step.
 python3 -m http.server 8000
 ```
 
-## Hosting (GitHub Pages, free)
+## Hosting
 
-1. Push this repo to GitHub (public repo, or private with a paid plan).
-2. Settings → Pages → Source: "Deploy from a branch", branch `main`, folder `/ (root)`.
-3. Add the domain: create a `CNAME` file in the repo root containing just the domain (e.g. `almostthereband.com`), or set it under Settings → Pages → Custom domain.
-4. At the DNS provider:
-   - Apex domain: four `A` records pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - `www`: `CNAME` to `<github-username>.github.io`
-5. Once DNS resolves, tick "Enforce HTTPS".
+Served by GitHub Pages from `main`. Pushing to `main` deploys.
 
 ## Content still to fill in
 
