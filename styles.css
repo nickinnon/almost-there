@@ -199,7 +199,7 @@ main, .footer {
   align-items: center;
 }
 
-.about__photo { border-radius: 4px; width: 100%; aspect-ratio: 3 / 2; }
+.about__photo { border-radius: 4px; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 
 .gallery {
   display: grid;
