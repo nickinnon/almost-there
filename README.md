@@ -15,5 +15,5 @@ Served by GitHub Pages from `main`. Pushing to `main` deploys.
 ## Content still to fill in
 
 - Spotify and Amazon Music links in `index.html` are search URLs. Replace with the direct album URLs once they show up.
-- Placeholder images in `assets/` (`cover.svg`, `band.svg`, `photo.svg`). Drop in real images and update the `src` attributes.
+- Placeholder images in `assets/` (`band.svg`, `photo.svg`). Drop in real images and update the `src` attributes.
 - Bio, contact email, show dates.
