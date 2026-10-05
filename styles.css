@@ -265,7 +265,6 @@ main, .footer {
 
 .muted { color: var(--muted); }
 
-.placeholder { color: var(--accent); }
 
 .footer {
   padding-block: 3rem 4rem;
