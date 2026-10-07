@@ -15,4 +15,4 @@ Served by GitHub Pages from `main`. Pushing to `main` deploys.
 ## Content still to fill in
 
 - Spotify and Amazon Music links in `index.html` are search URLs. Replace with the direct album URLs once they show up.
-- Show dates: update the Shows section after each gig.
+- Shows: add upcoming dates as cards; after a gig, move it under "Past shows" (`show--past`).

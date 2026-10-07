@@ -279,14 +279,26 @@ main, .footer {
   .gallery { grid-template-columns: minmax(0, 1fr); }
   .gallery .gallery__tall { grid-row: auto; aspect-ratio: 3 / 4; }
   .show { grid-template-columns: auto minmax(0, 1fr); }
-  .show__cta { grid-column: 1 / -1; text-align: center; }
+  .show__link { grid-column: 2; }
 }
 
-.hero__next { margin: 1.5rem 0 0; color: var(--muted); font-size: 0.95rem; }
-.hero__next a { color: var(--text); text-decoration-color: var(--accent); text-underline-offset: 3px; }
 
 section[id], footer[id] { scroll-margin-top: 5rem; }
 
 .nav__icon { display: inline-flex; align-items: center; }
 .footer a { text-decoration-color: var(--accent); text-underline-offset: 3px; }
 .footer a:hover { color: var(--accent); }
+
+#shows a { text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.shows__heading {
+  margin: 2rem 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.show--past { background: transparent; opacity: 0.7; }
+.show--past .show__date span { color: var(--muted); }
+.show__link { color: var(--muted); font-size: 0.9rem; white-space: nowrap; }
+.show__link:hover { color: var(--accent); }
