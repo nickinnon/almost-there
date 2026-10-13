@@ -12,7 +12,6 @@ python3 -m http.server 8000
 
 Served by GitHub Pages from `main`. Pushing to `main` deploys.
 
-## Content still to fill in
+## Upkeep
 
-- Spotify link in `index.html` is a search URL. Replace with the direct album URL once it shows up.
 - Shows: add upcoming dates as cards; after a gig, move it under "Past shows" (`show--past`).
