@@ -302,3 +302,31 @@ section[id], footer[id] { scroll-margin-top: 5rem; }
 .show--past .show__date span { color: var(--muted); }
 .show__link { color: var(--muted); font-size: 0.9rem; white-space: nowrap; }
 .show__link:hover { color: var(--accent); }
+
+.credits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+  gap: 0 3rem;
+  margin-top: 2.5rem;
+  font-size: 0.9rem;
+}
+.credits__heading, .credits__note { grid-column: 1 / -1; }
+.credits__heading {
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.credits dl { margin: 0; }
+.credits dl div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.credits dt { font-weight: 500; }
+.credits dd { margin: 0; color: var(--muted); text-align: right; }
+.credits__note { margin: 1rem 0 0; color: var(--muted); }
